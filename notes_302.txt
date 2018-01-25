@@ -1,0 +1,85 @@
+Bayu Jarod Wilson
+Thursday January 25
+----------------------------------------------------------------------------------------------------------------------------------------
+Jupyter
+----------------------------------------------------------------------------------------------------------------------------------------
+JUlia, PYThon, and R and is inspired by the planet Jupiter.
+Jupyter is used as a super cool advanced lab notebook
+Jupyter: The next generation "Lab Notebook"
+
+*** Make a program called utils. That way you can just `import utils` ***
+
+Think of a notebook as a "paper in progress"
+A notebook is the entry point into your research. It should gives you (or other readers) an overview of the goals, the code involved, the results and the plots. It will evolve with your research, morphing into the final analysis as you approach your goal. And sometimes, the writeup is the notebook itself (so-called executable papers)!
+
+----------------------------------------------------------------------------------------------------------------------------------------
+Typical Research/Analysis Workflow
+1) Write a brief explanation about what you're trying to do, and your chosen approach (the goal and hypothesis).
+2) Write some code to implement the analysis, look at the plots, modify your approach, try again...
+3) When you've made some tangible progress (e.g., resolved one piece of analysis), go back and clean up your notebook.
+	A. Refactor: Rework the code to reduce duplication, moving some of it into a separate module (remember: look at reusability and complexity).
+	B. Document: Enhance the documentation
+	C. Explain: Write a longer narrative about what you've done, so that the notebook can almost be read by someone not intimately familiar with the work.
+4) Go back to #1 until your entire project is done!
+----------------------------------------------------------------------------------------------------------------------------------------
+SHORTCUTS
+Mode changes and cell execution:
+Enter: Enter edit mode
+Esc: Leave edit mode
+Shift + Enter: Run cell
+----------------------------------------------------------------------------------------------------------------------------------------
+Some command mode shortcuts
+a: Create a new cell above the current one
+b: Create a new cell below the current one
+m: Change cell type to Markdown
+y: Change cell type to Code
+c: Copy selected cell(s)
+x: Cut selected cell(s)
+v: Paste selected cell(s)
+d d: Delete selected cell(s)
+z: Undo cell deletion
+----------------------------------------------------------------------------------------------------------------------------------------
+MAGIC FUNCTIONS
+
+They are anything that begin with %
+An extension in Jupyter notebooks. Useful for interactive data analysis.
+If they refer to a single line, they begin with a % (the percent sign). If they refer to the entire cell, they begin with a %% (two percent signs).
+
+%%writefile saves the cell as a file.
+
+# This is awesome
+%matplotlib inline 
+
+----------------------------------------------------------------------------------------------------------------------------------------
+ASTRO 300 STUFF
+https://github.com/UWashington-Astro300/Astro300-A17/blob/master/Astro%20300%20-%20Autumn%202017.ipynb
+
+JUPYTER NOTEBOOK TIPS AND TRICKS
+https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/
+
+----------------------------------------------------------------------------------------------------------------------------------------
+THIS IS THE COOLEST THING EVER
+from ipywidgets import interact
+
+interact(f, x=10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
