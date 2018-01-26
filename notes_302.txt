@@ -62,19 +62,38 @@ THIS IS THE COOLEST THING EVER
 from ipywidgets import interact
 
 interact(f, x=10)
+----------------------------------------------------------------------------------------------------------------------------------------
+PYTHONPATH
+mkdir mkutils
+export PYTHONPATH='$HOME/myutils'
 
+----------------------------------------------------------------------------------------------------------------------------------------
+Homework 3
+Due: Thursday, 11:59pm, Feb 1st, 2018.
 
+This week we're practicing using simple IPython Widgets, as well as recalling how to use matplotlib for plotting and pandas for 
+reading data (consult the ASTR 300 notebooks if you've forgotten it).
 
+The tasks:
 
+Write a function named load_and_prepare_cmd with the following signature:
+def load_and_prepare_cmd(filename):
+    ...
 
+(g, gr) = load_and_prepare_cmd('fieldA.csv')
+This function takes a filename of a CSV-formatted file (fieldA.csv is included in the directory with this notebook). The CSV file has a number of columns, including one named named g (which is the g-band magnitude) and one named r (which is the r-band magnitude). After loading, the function must remove all entries that do not satisfy the condition  −0.5<g−r<2.5and14<g<24−0.5<g−r<2.5and14<g<24 . 
+The function must return the arrays g and g-r.
 
+Write a function named interactive_hess with the following signature:
+def interactive_hess(g, gr):
+    ...
+that will generate an interactive Hess diagram given the data in  gg  and  g−rg−r . Use matplotlib.hexbin to generate the binned Hess diagram, with a default gridsize of 100. Make the gridsize interactivelly adaptable using a slider, ranging from 50 to 300 in steps of 
+1. To match my solution, use the bins='log' argument to matplotlib.hexbin (see the documentation for what it does).
 
-
-
-
-
-
-
+I recommend you prototype these in a Jupyter notebook. Once you've finished, move the code into a module named visutils 
+(i.e., visutils.py file). Then modify your notebook to use the functions from the module. This is a good way to practice 
+the pattern of prototyping and exploring in notebooks, then refactoring and moving reusable code into modules.
+Given your visutils module, I expect to be able to run this code and obtain a (similar) result.
 
 
 
