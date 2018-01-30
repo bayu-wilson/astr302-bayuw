@@ -1,0 +1,49 @@
+BAYU WILSON
+
+Data in Astronomy
+---------------------------------------------------------------------------------------------------
+Catalogs. We publish catalogs as measurements. They consist of tables and collections of tables.
+Knowledge of how to deal with databases is very important as we deal with.
+Big questions are: How do we organize our shittons of data?  How do you make it easy to explore this data?
+
+****** WE USE DATABASES ******
+
+Databases = tables = a bunch of rows and columns
+Matrix -> all data same type
+Tables -> data can have different type
+
+Data Management System (DBMS). It does the data management for me. 
+Uses Structured Query Language (SQL). In SQL, you tell what you want and the computer figures it out. SQL is easy to read.
+Python is imperative. Must have a set of commands.
+DBMS removes lots of wasted time that is not necessary to work on.
+
+SQLite is most widespread databse. Free. Database is a single file.
+
+MariaDB vs MySQL: use MariaDB
+
+OTHER STUFF
+---------------------------------------------------------------------------------------------------
+head -10 sample.csv
+
+SQL
+---------------------------------------------------------------------------------------------------
+TERMINATE STATEMENT WITH SEMICOLON
+All SQL commands begin with dot (.) 
+Python can use SQL!
+alias sqlbrowse=open -a "DB\ Browser\ for\ SQLite"
+
+We have places where measurements didn't take place!
+From SQLbrowser:
+
+UPDATE sources 
+SET psfMag_r = NULL 
+WHERE psfMag_r=-9999.0
+
+SELECT COUNT(psfMag_r), AVG(psfMag_r) 
+FROM sources 
+WHERE psfMag_r < 21.5
+
+
+
+
+
