@@ -1,0 +1,44 @@
+Python for Astronomy
+
+Professor Juric
+Office C320
+mjuric@astro.washington.edu
+
+https://github.com/uw-astr-302-w18
+https://github.com/uw-astr-302-w18/astr-302-w18/blob/master/syllabus/astr-302-w18-syllabus.pdf
+http://research.majuric.org/public/
+
+Thursday, January 4, 2018
+
+Course Objectives
+- Slack
+- Anaconda
+- Comfort and independence with code
+
+Notes
+- Check is ASTR 324 will be available Sp 17
+- We use python because time costs money. Computers are fast enough to use a high-level language like python. 
+While a low-level language may be faster it may lose time in the end aka cost money.
+- The best tools WILL change over time. The best thing to do is to be an effective learner
+- Statisticians use R.
+- Julia is a lot like python. Apparently like python. Like German from English.
+- Scala. Similar to python. Functional programming language. Like Mandarin from English. Different perspective.
+
+How to download Python:
+bash Miniconda3-latest-MacOSX-x86_64.sh
+Miniconda3 will now be installed into this location:
+/Users/bayuwilson/miniconda3
+# Check if ok!
+
+
+Note:
+You may wish to edit your .bashrc to prepend the Miniconda3 install location to PATH:
+
+export PATH=/Users/bayuwilson/miniconda3/bin:$PATH
+
+Cool Tools!
+map, list comprehension, study up on object oriented programming
+
+
+
+
