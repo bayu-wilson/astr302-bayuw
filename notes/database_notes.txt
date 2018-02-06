@@ -1,0 +1,14 @@
+We can combine the power of SQL and Python with Astroquery. Astroquery is a set of tools for querying astronomical web forms and databases, from Python.
+
+conda install -c astropy astroquery
+
+The -c astropy tells conda to download astroquery from the astropy channel.
+
+Documentation:
+http://astroquery.readthedocs.io/en/latest/index.html
+
+Do
+from astroquery.sdss import SDSS
+
+Don't
+import astroquery
