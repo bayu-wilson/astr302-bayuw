@@ -17,7 +17,7 @@ Course Objectives
 
 Notes
 - Check is ASTR 324 will be available Sp 17
-- We use python because time costs money. Computers are fast enough to use a high-level language like python. 
+- We use python because time costs money. Computers are fast enough to use a high-level language like python.
 While a low-level language may be faster it may lose time in the end aka cost money.
 - The best tools WILL change over time. The best thing to do is to be an effective learner
 - Statisticians use R.
@@ -39,6 +39,7 @@ export PATH=/Users/bayuwilson/miniconda3/bin:$PATH
 Cool Tools!
 map, list comprehension, study up on object oriented programming
 
-
-
-
+----------------------------------------------------------------------------------------------------
+How to sync a fork
+https://help.github.com/articles/syncing-a-fork/
+----------------------------------------------------------------------------------------------------

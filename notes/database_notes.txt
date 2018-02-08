@@ -20,6 +20,9 @@ SIMBAD is the acronym for Set of Identifications, Measurements and Bibliography 
 Tutorial based on: https://github.com/ESO-python/ESOPythonTutorials
 
 We can query by both name and position.
+
+Splatalogue ("spectral line catalogue") provides access to mm lines.
+
 ----------------------------------------------------------------------------------------------------
 This is nice
 Simbad.ROW_LIMIT = 100
