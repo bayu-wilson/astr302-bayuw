@@ -12,3 +12,15 @@ from astroquery.sdss import SDSS
 
 Don't
 import astroquery
+
+Astroquery is a set of related tools for querying different astronomical database services, e.g. SIMBAD, VizieR, and IRSA-IPAC, and for retrieving data from archives, e.g. the ESO, IRSA, and NRAO archives. It also includes tools for querying other astronomy-related databases such as line-list servers at NIST (primarily for optical/NIR electronic transitions) and Splatalogue for mm/radio molecular transitions.
+
+SIMBAD is the acronym for Set of Identifications, Measurements and Bibliography for Astronomical Data.
+
+Tutorial based on: https://github.com/ESO-python/ESOPythonTutorials
+
+We can query by both name and position.
+----------------------------------------------------------------------------------------------------
+This is nice
+Simbad.ROW_LIMIT = 100
+----------------------------------------------------------------------------------------------------
