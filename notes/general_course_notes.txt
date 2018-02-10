@@ -43,3 +43,9 @@ map, list comprehension, study up on object oriented programming
 How to sync a fork
 https://help.github.com/articles/syncing-a-fork/
 ----------------------------------------------------------------------------------------------------
+MAKE FILES EXECUTABLE WITH THIS
+# chmod +x [FILE] # Makes executable
+# chmod u+x [FILE] # Makes executable to user
+
+
+
