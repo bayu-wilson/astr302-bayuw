@@ -1,0 +1,34 @@
+# ARRAY PROGRAMMING
+
+In computer science, array programming languages (also known as vector or multidimensional languages) generalize operations on scalars to apply transparently to vectors, matrices, and higher-dimensional arrays.
+
+Difference between array programming and object oriented. One you have an array of objects and the other you have object that results in things you want.
+
+Array programming is implemented through a library. i.e. Numpy
+
+Why is Numpy faster??????
+Without it, it is like constantly asking questions that are redundant and then it is basically emulating the CPU again. Basically it is wasting a bunch of time. Cons of using an interpretive language.
+
+Numpy works directly with the processor. It avoids the overhead of heavy interpreter runaround.
+
+
+__add__ ... __ is special. This is the add function in Python
+
+M[1,:] # row 1
+
+M[:,1] # column
+
+np.unique is FAST
+
+In [116]: %timeit np.array(list(set(x)))
+1000 loops, best of 3: 1.1 ms per loop
+
+In [117]: %timeit np.unique(x)
+10000 loops, best of 3: 197 µs per loop
+
+The : character is syntactic "sugar". It is used to make easy to write.
+: = slice(None)
+Indexing is same as:
+__getitem__
+
+Python implements in C so it is really fast!
