@@ -20,10 +20,10 @@ M[:,1] # column
 
 np.unique is FAST
 
-In [116]: %timeit np.array(list(set(x)))
+%timeit np.array(list(set(x)))
 1000 loops, best of 3: 1.1 ms per loop
 
-In [117]: %timeit np.unique(x)
+%timeit np.unique(x)
 10000 loops, best of 3: 197 µs per loop
 
 The : character is syntactic "sugar". It is used to make easy to write.
@@ -32,3 +32,8 @@ Indexing is same as:
 __getitem__
 
 Python implements in C so it is really fast!
+
+Slower
+A = A + B
+Faster
+A += B
