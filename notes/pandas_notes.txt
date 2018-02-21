@@ -1,0 +1,9 @@
+Notes for pandas lecture
+Tueday February 20, 2017
+
+Aggregating means applying functions (such as `sum()`, `mean()` or `median()`) that take a dataset and return a summary value (e.g., a statistic)
+
+Groupby function allows us to reorganize dataset into groups and apply aggregates onto each of those groups.
+
+This process is called the Split, apply, combine method
+
