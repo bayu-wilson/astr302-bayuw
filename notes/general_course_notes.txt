@@ -47,5 +47,8 @@ MAKE FILES EXECUTABLE WITH THIS
 # chmod +x [FILE] # Makes executable
 # chmod u+x [FILE] # Makes executable to user
 
+----------------------------------------------------------------------------------------------------
+HOW TO SCP
+scp bwilson@pczaal16.strw.leidenuniv.nl:/data1/Bayu/roadmap.py ~/Desktop/
 
 
