@@ -1,0 +1,43 @@
+Photometry lecture notes
+
+Objects in image:
+Stars
+Galaxies
+Diffuse Galaxies
+
+Noise:
+Poisson
+Instrumental
+Readout noise
+
+Sky:
+Sky brightness
+
+
+Sky noise is dominant. The noise is from our atmosphere. 
+
+Point spread function (PSF): 
+It tells you how a point gets spread to adjacent pixels. 
+Stars should really be like tiny points in the sky. PSF is why they aren't! Understanding this is vital to make good measurements.
+
+How should we measure flux of an object?
+- Aperture Photometry:
+You could do aperture photometry. You define an aperture (circle,ellipse etc). Then measure how many counts there are in an aperture.
+
+Increasing size of aperature will increase noise but won't increase signal. You can optimally set size by maximizing the signal to noise.
+
+- Forward Modeling:
+This is 30% better. There is no better estimator than this. Model fitting. Use chi**2 test.
+
+
+
+
+
+
+
+
+
+
+
+
+
