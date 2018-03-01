@@ -50,5 +50,6 @@ MAKE FILES EXECUTABLE WITH THIS
 ----------------------------------------------------------------------------------------------------
 HOW TO SCP
 scp bwilson@pczaal16.strw.leidenuniv.nl:/data1/Bayu/roadmap.py ~/Desktop/
+scp -r bwilson@pczaal16.strw.leidenuniv.nl:/data1/BAYU_DATA/COSMOS/* ~/../../Volumes/BayuWilson/LEAPS/RESEARCH/
 
 
